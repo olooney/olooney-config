@@ -1,0 +1,5 @@
+mkdir -p ~/.vim/autoload ~/.vim/bundle 
+curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+git clone https://github.com/sukima/xmledit.git ~/.vim/bundle/xmledit
+git clone https://github.com/mattn/emmet-vim.git ~/.vim/bundle/emmet-vim
+
