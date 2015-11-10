@@ -4,6 +4,7 @@ execute pathogen#infect()
 set hidden
 set number
 set complete-=k complete+=k
+set iskeyword+=-
 set ignorecase
 set shell=/bin/bash\ -l
 set directory=/tmp//
