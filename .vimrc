@@ -38,3 +38,6 @@ vmap <C-j> <LocalLeader>5
 
 " zencoding plugin
 let g:user_emmet_expandabbr_key = '<c-e>'
+
+" makefile tabs
+:autocmd FileType make set noexpandtab
